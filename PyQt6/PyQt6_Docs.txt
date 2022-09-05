@@ -1,0 +1,4 @@
+https://www.pythonguis.com/pyqt6/
+
+Debug
+- https://askubuntu.com/questions/612314/how-to-install-pyqt-for-python-3-in-ubuntu-14-10

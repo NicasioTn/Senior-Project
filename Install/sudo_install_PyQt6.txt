@@ -1,0 +1,8 @@
+Install PyQt6
+--เริ่ม apt get update, upgrade
+จากนั้น
+sudo apt-get install python3-pyqt6
+
+sudo apt-get install qttools6-dev-tools
+
+sudo apt-get install qtcreator pyqt6-dev-tools
