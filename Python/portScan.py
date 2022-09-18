@@ -3,6 +3,12 @@ import ipaddress
 
 ports = [25,80,53,443,445,8080,8443]
 
+dns = input("website at : ")
+filename = input("Recordfilename is : ")
+os.system("nslookup " + dns + " >> " + filename + ".txt")
+# os.system("type "+ filename + ".txt")
+# print("address is : " )
+
 def SynScan(host):
  ans, unans = sr(IP(dst=host) / TCP(sport=33333,dport=ports,flags="S"),timeout=2,verbose=0)
  print("Open ports at %s:" % host)
